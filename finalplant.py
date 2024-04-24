@@ -11,7 +11,7 @@ app = Flask(__name__)
 loaded_model = load_model("finetuned_model.h5")
 
 # Path to training data directory
-training_data_path = "D:\\KEC PROJECTS\\2 YEAR\\Hack Sphere\\New folder\\New Plant Diseases Dataset(Augmented)\\New Plant Diseases Dataset(Augmented)\\train"
+training_data_path = "path_to_train_data"
 
 # Get the class labels
 class_labels = sorted(os.listdir(training_data_path))
